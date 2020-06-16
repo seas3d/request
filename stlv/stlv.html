@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>SEAS 3D Print</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head> <link rel="icon" type="image/png" href="fav.png"></head>
+
+
+
+<body>
+
+
+<script src="stl_viewer.min.js"></script>
+<div id="stl_cont"></div>
+<script>
+	var stl_viewer=new StlViewer(document.getElementById("stl_cont"), { models: [ {id:0, filename:"mystl.stl"} ] });
+</script>
+
+
+
+</body>
+</html>
