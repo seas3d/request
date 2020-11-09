@@ -56,10 +56,10 @@ ul {
 
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 
-      <a href="#" class="w3-bar-item w3-button w3-padding-16 "><strong>SEAS 3D</strong></a>
-      <a href="#sop" class="w3-bar-item w3-button w3-padding-16 w3-right w3-hide-small">SOP</a>
-      <a href="#info" class="w3-bar-item w3-button w3-padding-16 w3-right w3-hide-small">MATERIAL SELECTION</a>
-      <a href="#status" class="w3-bar-item w3-button w3-padding-16 w3-right w3-hide-small">STATUS</a>
+      <a href="/seas3d/" class="w3-bar-item w3-button w3-padding-16 "><strong>SEAS 3D</strong></a>
+      <a href="/seas3d/sop.html" class="w3-bar-item w3-button w3-padding-16 w3-right w3-hide-small">SOP</a>
+      <a href="/seas3d/materials.html" class="w3-bar-item w3-button w3-padding-16 w3-right w3-hide-small">MATERIALS</a>
+      <a href="/seas3d/status.html" class="w3-bar-item w3-button w3-padding-16 w3-right w3-hide-small">STATUS</a>
 
 
 
@@ -70,13 +70,13 @@ ul {
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#status" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">STATUS</a>
-  <a href="#info" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MATERIAL INFO</a>
-  <a href="#sop" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOP</a>
+  <a href="/seas3d/status.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">STATUS</a>
+  <a href="/seas3d/materials.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MATERIALS</a>
+  <a href="/seas3d/sop.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOP</a>
 
 </div>
 
-<!-- Page content -->
+<!-- Main -->
 <div class="w3-content" style="max-width:2000px;margin-top:0px">
 
   <!-- Automatic Slideshow Images -->
@@ -90,338 +90,23 @@ ul {
   </div>
   
 
-  <!-- The Band Section -->
 
-  <div class="w3-container w3-content w3-center w3-text-white " id="status">
-    <div><br><br> </div>
-    <h2 class="w3-wide w3-center">STATUS</h2>
-    <div><br><br> </div>
-    <iframe class="smallframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSSxrmaSfIhM5R6A7ufxNjO2c2TT9s_TfwsAkmop2KzLHu27cpvWd8f-bZMlLMl4hNuzeT_R9LlNHOk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;chrome=false&amp;rm=minimal&amp;ui=2&amp;" height="500" width="680" frameBorder="0"></iframe>
-    <div> <br><br><br><br><br> </div>
-  </div>
 </div>
 
-<!-- The Tour Section -->
-<div class="w3-white" id="info">
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-    <h2 class="w3-wide w3-center">METERIAL SELECTION</h2>
-    <br>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-black w3-xlarge">
 
+<!--   <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium"></a></p>
+ -->
+   
+ </footer>
 
-    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-      <div class="w3-third w3-margin-bottom">
-        <img src="img/vw.png" alt="VEROWHITE" style="width:100%" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>VEROWHITE</b></p>
-
-            <button type="button" class="collapsible">INFO</button>
-            <div class="content">
-
-            <p>General Info:</p>
-              <ul>
-                <li>• Max Build volume:<br> 294 x 192 x 148.6 mm <br>11.57 x 7.55 x 5.85 in</li>
-                
-                <br><li>• Industry Multiplier: 20</li> <br>
-                <br><li>• Resolution: 50μm</li> <br>
-                <li>• Minimum recommended <br> feature size: 250μm</li>
-                <br>
-
-                
-              </ul>
-
-            <p>Pros:</p>
-              <ul>
-                <li>• Fastest turn around time</li><br>
-                <li>• Biocompatible</li><br>
-                <li>• Great for molding silicone</li><br>
-                <li>• Great for molding microchannels</li><br>
-                <li>• Isotropic and non-porous</li><br>
-              </ul>
-     
-            <p>Cons:</p>
-              <ul>
-                <li>• Very expensive</li><br>
-                <li>• Will creep overtime</li><br>
-                <li>• Brittle</li><br>
-                <li>• Non-structural</li><br>
-                <li>• Not UV stabilized</li><br>
-                <li>• Support material leaves matte finish</li><br>
-              </ul>
-
-            </div>
-            <br>
-          <button onclick="document.location='vero-material-data-sheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
-        </div>
-      </div>
-      <div class="w3-third w3-margin-bottom">
-        <img src="img/vb.jpg" alt="VEROBLUE" style="width:100%" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>VEROBLUE</b></p>
-
-            <button type="button" class="collapsible">INFO</button>
-            <div class="content">
-
-            <p>General Info:</p>
-              <ul>
-                <li>• Max Build volume:<br> 294 x 192 x 148.6 mm <br>11.57 x 7.55 x 5.85 in</li>
-                
-                <br><li>• Industry Multiplier: 20</li> <br>
-                <br><li>• Resolution: 50μm</li> <br>
-                <li>• Minimum recommended <br> feature size: 250μm</li>
-                <br>
-
-                
-              </ul>
-
-            <p>Pros:</p>
-              <ul>
-                <li>• 50μm resolution</li><br>
-                <li>• Fastest turn around time</li><br>
-                <li>• Biocompatible</li><br>
-                <li>• Great for molding silicone</li><br>
-                <li>• Great for molding microchannels</li><br>
-                <li>• Isotropic and non-porous</li><br>
-              </ul>
-     
-            <p>Cons:</p>
-              <ul>
-                <li>• Very expensive</li><br>
-                <li>• Will creep overtime</li><br>
-                <li>• Brittle</li><br>
-                <li>• Non-structural</li><br>
-                <li>• Not UV stabilized</li><br>
-                <li>• Support material leaves matte finish</li><br>
-              </ul>
-
-            </div>
-            <br>
-           <button onclick="document.location='vero-material-data-sheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
-        </div>
-      </div>
-      <div class="w3-third w3-margin-bottom">
-        <img src="img/vc.jpg" alt="VEROCLEAR" style="width:100%" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>VEROCLEAR</b></p>
-
-
-                
-              </ul>
-        
-            <button type="button" class="collapsible">INFO</button>
-            <div class="content">
-
-
-            <p>General Info:</p>
-              <ul>
-                <li>• Max Build volume:<br> 294 x 192 x 148.6 mm <br>11.57 x 7.55 x 5.85 in</li>
-               
-                <br><li>• Industry Multiplier: 20</li> <br>
-                <br><li>• Resolution: 32μm</li> <br>
-                <li>• Minimum recommended <br> feature size: 250μm</li>
-                <br>
-
-            <p>Pros:</p>
-              <ul>
-                <li>• 26μm resolution in z-axis</li><br>
-                <li>• Fastest turn around time</li><br>
-                <li>• Biocompatible</li><br>
-                <li>• Translucent</li><br>
-                <li>• Great for molding silicone</li><br>
-                <li>• Great for molding microchannels</li><br>
-                <li>• Isotropic and non-porous</li><br>
-              </ul>
-     
-            <p>Cons:</p>
-              <ul>
-                <li>• Very expensive</li><br>
-                <li>• Will creep overtime</li><br>
-                <li>• Brittle</li><br>
-                <li>• Non-structural</li><br>
-                <li>• Not UV stabilized</li><br>
-                <li>• Support material leaves matte finish</li><br>
-              </ul>
-
-            </div>
-            <br>
-            <button onclick="document.location='vero-material-data-sheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
-        </div>
-      </div>
-
-
-
-      <div class="w3-third w3-margin-bottom">
-        <img src="img/fdm.png" alt="FDM PLA" style="width:100%" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>FDM PLA</b></p>
-
-            <button type="button" class="collapsible">INFO</button>
-            <div class="content">
-              <p>General Info:</p>
-              <ul>
-                <li>• Max Build volume:<br> 500 x 210 x 210 mm <br>9.84 x 8.3 x 8.3 in</li>
-                
-                <br><li>• Industry Multiplier: 10</li> <br>
-                <br><li>• Resolution: 100-200μm</li> <br>
-                <li>• Minimum recommended <br> feature size: 250μm</li>
-                <br>
-            <p>Pros:</p>
-              <ul>
-                <li>• Great for prototyping</li><br>
-                <li>• Most widely applicable</li><br>
-                <li>• Relativley inexpensive</li><br>
-                <li>• Structurally sound</li><br>
-                <li>• Does not creep</li><br>
-                <li>• UV stable</li><br>
-
-
-              </ul>
-     
-            <p>Cons:</p>
-              <ul>
-
-                <li>• Non-isotropic and porous</li><br>
-                <li>• Surface finish may vary</li><br>
-                
-
-
-              </ul>
-
-            </div>
-            <br>
-
-           <button onclick="document.location='MaterialTDS-PLA.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
-        </div>
-      </div>
-      <div class="w3-third w3-margin-bottom">
-        <img src="img/mf.jpg" alt="FDM ONYX" style="width:100%" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>FDM ONYX</b></p>
-
-            <button type="button" class="collapsible">INFO</button>
-            <div class="content">
-
-              <p>General Info:</p>
-              <ul>
-                <li>• Max Build volume:<br> 320  x 132  x 154 mm <br>12.6 x 5.1 x 6 in</li>
-               
-                <br><li>• Industry Multiplier: 5</li> <br>
-                <br><li>• Resolution: 100-200μm</li> <br>
-                <li>• Minimum recommended <br> feature size: 250μm</li>
-                <br>
-
-              <p>Pros:</p>
-              <ul>
-                <li>• Production quality</li><br>
-                <li>• Widely applicable</li><br>
-            
-                <li>• Structurally sound</li><br>
-
-                <li>• Does not creep</li><br>
-                <li>• UV stable</li><br>
-                <li>• Does not fail catastrophically</li><br>
-
-
-              </ul>
-     
-            <p>Cons:</p>
-              <ul>
-                <li>• Slow</li><br>
-                <li>• Non-isotropic and porous</li><br>
-                <li>• Expensive</li><br>
-                <li>• Increased likelihood of print failure or defect</li><br>
-              
-                
-
-
-              </ul>
-
-            </div>
-            <br>
-           <button onclick="document.location='composites-data-sheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
-        </div>
-      </div>
-      <div class="w3-third w3-margin-bottom">
-        <img src="img/fl.jpg" alt="FORMLABS" style="width:100%" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>FORMLABS</b></p>
-            <button type="button" class="collapsible">INFO</button>
-            <div class="content">
-
-              <p>General Info:</p>
-              <ul>
-                <li>• Max Build volume:<br> 145 × 145 × 185 cm<br>5.6 x 5.6 x 7.25 in</li>
-                
-                
-                <br><li>• Industry Multiplier: 7.5</li> <br>
-                <br><li>• Resolution: 25-200μm</li> <br>
-                <li>• Minimum recommended <br> feature size: 250μm</li>
-                <br>
-
-
-
-              <p>Pros:</p>
-              <ul>
-                <li>• Isotropic </li><br>
-                <li>• Production quality </li><br>
-            
-                <li>• Structurally sound</li><br>
-                
- 
-
-
-              </ul>
-     
-            <p>Cons:</p>
-              <ul>
-                <li>• Slowest</li><br>
-                <li>• Narrow use case</li><br>
-                <li>• Expensive</li><br>
-                <li>• Support structure leaves bumpy surface</li><br>
-                <li>• Even finished parts are sometimes sticky</li><br>
-              
-                
-
-
-              </ul>
-
-            </div>
-            <br>
-           <button onclick="document.location='XL-DataSheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="w3-black" id="sop">
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-    <h2 class="w3-wide w3-center">STANDARD OPERATING PROCEDURE</h2>
-    <br>
-
-
-    <br>
-    <ul class="w3-ul " style="width:100%">
-
-      <li><p>• &nbsp;&nbsp;&nbsp;&nbsp;Submit your STL files using this <a href="https://forms.gle/rbEgF4Sc2hu2tLwn7">form</a></p> </li>
-      <li><p>• &nbsp;&nbsp;&nbsp;&nbsp;Parts submitted before noon will usually begin printing the same day</p></li>
-      <li><p>• &nbsp;&nbsp;&nbsp;&nbsp;Check the status of your print <a href="#status">here</a></p></li>
-      <li><p>• &nbsp;&nbsp;&nbsp;&nbsp;Once your print is marked  &nbsp;&nbsp; <mark style="background-color: white;">&nbsp;&nbsp;Finished &nbsp;&nbsp;</mark> &nbsp;&nbsp; you'll be able to find it outside of room 311 </p></li>
-      <li><p>• &nbsp;&nbsp;&nbsp;&nbsp;Parts will be in a plastic bag with your name on it on this table &nbsp;&nbsp;↓&nbsp;&nbsp;↓<br><br><img src="img/table.jpg"style="width:100%" ></p></li>
-      <br>
-      <li><p>• &nbsp;&nbsp;&nbsp;&nbsp;Make sure to sanitize your parts</p></li>
-    </ul>
-    <br>
-   <br>
-   <br>
-  <br>
-
-  </div>
-</div>
-
-<!-- End Page Content -->
-</div>
-
-<img src="bos.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 <script>
 // Automatic Slideshow - change image every 4 seconds
