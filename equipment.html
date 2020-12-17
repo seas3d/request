@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>SEAS 3D Print</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+<link rel="icon" type="image/png" href="fav.png">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 132px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-size: 14px;
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+</style>
+
+</head>
+
+<style>
+  body {font-family: "Lato", sans-serif}
+  .mySlides {display: none}
+</style>
+
+<body class="w3-dark-grey" scroll="no" style="overflow: hidden">
+
+    <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-dark-grey w3-card">
+
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+
+      <a href="/" class="w3-bar-item w3-button w3-padding-16 "><strong>SEAS 3D</strong></a>
+      <a href="/sop.html" class="w3-bar-item w3-button w3-padding-16 w3-right w3-hide-small">SOP</a>
+      <a href="/materials.html" class="w3-bar-item w3-button w3-padding-16 w3-right w3-hide-small">MATERIALS</a>
+      <a href="/status.html" class="w3-bar-item w3-button w3-padding-16 w3-right w3-hide-small">STATUS</a>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="/status.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">STATUS</a>
+  <a href="/materials.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MATERIALS</a>
+  <a href="/sop.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOP</a>
+
+</div>
+
+
+<!-- Equipment -->
+<div class="w3-white" id="info">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center">EQUIPMENT</h2>
+    <br>
+
+
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <img src="img/vw.png" alt="VEROWHITE" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>VEROWHITE</b></p>
+
+            <button type="button" class="collapsible">INFO</button>
+            <div class="content">
+
+            <p>General Info:</p>
+              <ul>
+                <li>• Max Build volume:<br> 294 x 192 x 148.6 mm <br>11.57 x 7.55 x 5.85 in</li>
+                
+                <br><li>• Resolution: 50μm</li> <br>
+                <li>• Minimum recommended <br> feature size: 250μm</li>
+                <br>
+
+                
+              </ul>
+
+            <p>Pros:</p>
+              <ul>
+                <li>• Fastest turn around time</li><br>
+                <li>• Biocompatible</li><br>
+                <li>• Great for molding silicone</li><br>
+                <li>• Great for molding microchannels</li><br>
+                <li>• Isotropic and non-porous</li><br>
+              </ul>
+     
+            <p>Cons:</p>
+              <ul>
+                <li>• Very expensive</li><br>
+                <li>• Will creep overtime</li><br>
+                <li>• Brittle</li><br>
+                <li>• Non-structural</li><br>
+                <li>• Not UV stabilized</li><br>
+                <li>• Support material leaves matte finish</li><br>
+              </ul>
+
+            </div>
+            <br>
+          <button onclick="document.location='vero-material-data-sheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="img/vb.jpg" alt="VEROBLUE" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>VEROBLUE</b></p>
+
+            <button type="button" class="collapsible">INFO</button>
+            <div class="content">
+
+            <p>General Info:</p>
+              <ul>
+                <li>• Max Build volume:<br> 294 x 192 x 148.6 mm <br>11.57 x 7.55 x 5.85 in</li>
+                
+                <br><li>• Resolution: 50μm</li> <br>
+                <li>• Minimum recommended <br> feature size: 250μm</li>
+                <br>
+
+                
+              </ul>
+
+            <p>Pros:</p>
+              <ul>
+                <li>• 50μm resolution</li><br>
+                <li>• Fastest turn around time</li><br>
+                <li>• Biocompatible</li><br>
+                <li>• Great for molding silicone</li><br>
+                <li>• Great for molding microchannels</li><br>
+                <li>• Isotropic and non-porous</li><br>
+              </ul>
+     
+            <p>Cons:</p>
+              <ul>
+                <li>• Very expensive</li><br>
+                <li>• Will creep overtime</li><br>
+                <li>• Brittle</li><br>
+                <li>• Non-structural</li><br>
+                <li>• Not UV stabilized</li><br>
+                <li>• Support material leaves matte finish</li><br>
+              </ul>
+
+            </div>
+            <br>
+           <button onclick="document.location='vero-material-data-sheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="img/vc.jpg" alt="VEROCLEAR" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>VEROCLEAR</b></p>
+
+
+                
+              </ul>
+        
+            <button type="button" class="collapsible">INFO</button>
+            <div class="content">
+
+
+            <p>General Info:</p>
+              <ul>
+                <li>• Max Build volume:<br> 294 x 192 x 148.6 mm <br>11.57 x 7.55 x 5.85 in</li>
+               
+                <br><li>• Resolution: 32μm</li> <br>
+                <li>• Minimum recommended <br> feature size: 250μm</li>
+                <br>
+
+            <p>Pros:</p>
+              <ul>
+                <li>• 26μm resolution in z-axis</li><br>
+                <li>• Fastest turn around time</li><br>
+                <li>• Biocompatible</li><br>
+                <li>• Translucent</li><br>
+                <li>• Great for molding silicone</li><br>
+                <li>• Great for molding microchannels</li><br>
+                <li>• Isotropic and non-porous</li><br>
+              </ul>
+     
+            <p>Cons:</p>
+              <ul>
+                <li>• Very expensive</li><br>
+                <li>• Will creep overtime</li><br>
+                <li>• Brittle</li><br>
+                <li>• Non-structural</li><br>
+                <li>• Not UV stabilized</li><br>
+                <li>• Support material leaves matte finish</li><br>
+              </ul>
+
+            </div>
+            <br>
+            <button onclick="document.location='vero-material-data-sheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
+        </div>
+      </div>
+
+
+
+      <div class="w3-third w3-margin-bottom">
+        <img src="img/fdm.png" alt="FDM PLA" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>FDM PLA</b></p>
+
+            <button type="button" class="collapsible">INFO</button>
+            <div class="content">
+              <p>General Info:</p>
+              <ul>
+                <li>• Max Build volume:<br> 250 x 210 x 210 mm <br>9.84 x 8.3 x 8.3 in</li>
+                <br><li>• Resolution: 100-200μm</li> <br>
+                <li>• Minimum recommended <br> feature size: 250μm</li>
+                <br>
+            <p>Pros:</p>
+              <ul>
+                <li>• Great for prototyping</li><br>
+                <li>• Most widely applicable</li><br>
+                <li>• Relativley inexpensive</li><br>
+                <li>• Structurally sound</li><br>
+                <li>• Does not creep</li><br>
+                <li>• UV stable</li><br>
+
+
+              </ul>
+     
+            <p>Cons:</p>
+              <ul>
+
+                <li>• Non-isotropic and porous</li><br>
+                <li>• Surface finish may vary</li><br>
+                
+
+
+              </ul>
+
+            </div>
+            <br>
+
+           <button onclick="document.location='MaterialTDS-PLA.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="img/mf.jpg" alt="FDM ONYX" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>FDM ONYX</b></p>
+
+            <button type="button" class="collapsible">INFO</button>
+            <div class="content">
+
+              <p>General Info:</p>
+              <ul>
+                <li>• Max Build volume:<br> 320  x 132  x 154 mm <br>12.6 x 5.1 x 6 in</li>
+               
+                <br><li>• Resolution: 100-200μm</li> <br>
+                <li>• Minimum recommended <br> feature size: 250μm</li>
+                <br>
+
+              <p>Pros:</p>
+              <ul>
+                <li>• Production quality</li><br>
+                <li>• Widely applicable</li><br>
+            
+                <li>• Structurally sound</li><br>
+
+                <li>• Does not creep</li><br>
+                <li>• UV stable</li><br>
+                <li>• Does not fail catastrophically</li><br>
+
+
+              </ul>
+     
+            <p>Cons:</p>
+              <ul>
+                <li>• Slow</li><br>
+                <li>• Non-isotropic and porous</li><br>
+                <li>• Expensive</li><br>
+                <li>• Increased likelihood of print failure or defect</li><br>
+              
+                
+
+
+              </ul>
+
+            </div>
+            <br>
+           <button onclick="document.location='composites-data-sheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <img src="img/fl.jpg" alt="FORMLABS" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>FORMLABS</b></p>
+            <button type="button" class="collapsible">INFO</button>
+            <div class="content">
+
+              <p>General Info:</p>
+              <ul>
+                <li>• Max Build volume:<br> 145 × 145 × 185 cm<br>5.6 x 5.6 x 7.25 in</li>
+                
+                
+                <br><li>• Resolution: 25-200μm</li> <br>
+                <li>• Minimum recommended <br> feature size: 250μm</li>
+                <br>
+
+
+
+              <p>Pros:</p>
+              <ul>
+                <li>• Isotropic </li><br>
+                <li>• Production quality </li><br>
+            
+                <li>• Structurally sound</li><br>
+                
+ 
+
+
+              </ul>
+     
+            <p>Cons:</p>
+              <ul>
+                <li>• Slowest</li><br>
+                <li>• Narrow use case</li><br>
+                <li>• Expensive</li><br>
+                <li>• Support structure leaves bumpy surface</li><br>
+                <li>• Even finished parts are sometimes sticky</li><br>
+              
+                
+
+
+              </ul>
+
+            </div>
+            <br>
+           <button onclick="document.location='XL-DataSheet.pdf'" class="w3-button w3-black w3-margin-bottom">MORE INFO </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+
+<!--   <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium"></a></p>
+ -->
+   
+ </footer>
+
+
+<script>
+
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+
+</body>
+</html>
